@@ -45,7 +45,7 @@ Read [this](https://telegram.dog/TeamEvamaria/12) before you start messing up wi
 * `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
 ### Optional Variables
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used seperated by space )
-* Check [info.py](https://github.com/EvamariaTG/evamaria/blob/master/info.py) for more
+* Check [info.py]https://github.com/Tanujairam123/Rexadvautofilter/blob/master/info.py) for more
 
 
 ## Deploy
@@ -102,8 +102,8 @@ python3 bot.py
 • /broadcast - to broadcast a message to all Eva Maria users
 ```
 ## Support
-[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/EvaMariaSupport)
-[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/TeamEvamaria)
+[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/REX_Bots_Support)
+[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/REX_BOTZ)
 
 ## Credits 
 * [![EvaMaria-Devs](https://img.shields.io/static/v1?label=EvaMaria&message=devs&color=critical)](https://telegram.dog/EvaMariaDevs)
