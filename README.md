@@ -97,7 +97,7 @@ python3 bot.py
 • /disable  -  do disable a chat.
 * /enable - re-enable chat.
 • /ban  - to ban a user.
-• /unban  - to unban a user.
+• /unban  - to unban a user. 
 • /channel - to get list of total connected channels
 • /broadcast - to broadcast a message to all Eva Maria users
 ```
@@ -115,12 +115,8 @@ python3 bot.py
  - Thanks To [Trojanz](https://github.com/trojanzhex) for Their Awesome [Unlimited Filter Bot](https://github.com/TroJanzHEX/Unlimited-Filter-Bot) And [AutoFilterBoT](https://github.com/trojanzhex/auto-filter-bot)
  - Thanks To All Everyone In This Journey
 
-### Note
 
-[Note To A So Called Dev](https://telegram.dog/subin_works/203): 
 
-Kanging this codes and and editing a few lines and releasing a V.x  or an [alpha](https://telegram.dog/subin_works/204), beta , gama branches of your repo wont make you a Developer.
-Fork the repo and edit as per your needs.
 
 
 
