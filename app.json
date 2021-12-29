@@ -1,5 +1,5 @@
 {
-    "name": "EvaMariaBot",
+    "name": "Rex adv autofilter bot",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "stack": "container",
     "keywords": [
@@ -16,10 +16,10 @@
       "inline"
     ],
     "website": "https://github.com/EvamariaTG/EvaMaria",
-    "repository": "https://github.com/EvamariaTG/EvaMaria",
+    "repository": "https://github.com/Tanujairam123/Rexadvautofilter",
     "env": {
         "BOT_TOKEN": {
-            "description": "Your bot token.",
+            "description": "Your bot token which is obtained from @Botfather.",
             "required": true
         },
         "API_ID": {
@@ -39,7 +39,7 @@
             "required": true
         },
         "PICS": {
-            "description": "Add some telegraph link of pictures .",
+            "description": "Add some telegraph link of pictures,It will displayed in the start message.",
             "required": false
         },
         "LOG_CHANNEL": {
