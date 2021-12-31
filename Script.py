@@ -11,8 +11,8 @@ class script(object):
 ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
     SOURCE_TXT = """<b>NOTE:</b>
-- Eva Maria is a open source project. 
-- Source - https://github.com/Tanujairam123/Rexadvautofilter  
+- 𝙴𝚅𝙰 𝙼𝙰𝚁𝙸𝙰 𝙸𝚂 𝙰 𝙾𝙿𝙴𝙽 𝚂𝙾𝚄𝚁𝙲𝙴 𝙿𝚁𝙾𝙹𝙴𝙲𝚃. 
+- 𝚂𝙾𝚄𝚁𝙲𝙴 - https://github.com/Tanujairam123/Rexadvautofilter  
 
 <b>DEVS:</b>
 - <a href=https://t.me/REX_BOTZ>𝚃𝚎𝚊𝚖 𝚁𝚎𝚡 𝚋𝚘𝚝𝚜</a>"""
@@ -26,21 +26,21 @@ class script(object):
 3. 𝚊𝚕𝚎𝚛𝚝 𝚋𝚞𝚝𝚝𝚘𝚗𝚜 𝚑𝚊𝚟𝚎 𝚊 𝚕𝚒𝚖𝚒𝚝 𝚘𝚏 64 𝚌𝚑𝚊𝚛𝚊𝚌𝚝𝚎𝚛𝚜.
 
 <b>Commands and Usage:</b>
-• /filter - <code>add a filter in chat</code>
-• /filters - <code>list all the filters of a chat</code>
-• /del - <code>delete a specific filter in chat</code>
-• /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
+• /filter - <code>𝙰𝙳𝙳 𝙰 𝙵𝙸𝙻𝚃𝙴𝚁 𝙸𝙽 𝙲𝙷𝙰𝚃</code>
+• /filters - <code>𝙻𝙸𝚂𝚃 𝙰𝙻𝙻 𝚃𝙷𝙴 𝙵𝙸𝙻𝚃𝙴𝚁𝚂 𝙾𝙵 𝙰 𝙲𝙷𝙰𝚃</code>
+• /del - <code>𝙳𝙴𝙻𝙴𝚃𝙴 𝙰 𝚂𝙿𝙴𝙲𝙸𝙵𝙸𝙲 𝙵𝙸𝙻𝚃𝙴𝚁 𝙸𝙽 𝙲𝙷𝙰𝚃</code>
+• /delall - <code>𝙳𝙴𝙻𝙴𝚃𝙴 𝚃𝙷𝙴 𝚆𝙷𝙾𝙻𝙴 𝙵𝙸𝙻𝚃𝙴𝚁𝚂 𝙸𝙽 𝙰 𝙲𝙷𝙰𝚃 (𝙲𝙷𝙰𝚃 𝙾𝚆𝙽𝙴𝚁 𝙾𝙽𝙻𝚈)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- Eva Maria Supports both url and alert inline buttons.
+- 𝙴𝙼𝙸𝙻𝙸𝙰 𝙲𝙻𝙰𝚁𝙺𝙴 𝚂𝚄𝙿𝙿𝙾𝚁𝚃𝚂 𝙱𝙾𝚃𝙷 𝚄𝚁𝙻 𝙰𝙽𝙳 𝙰𝙻𝙴𝚁𝚃 𝙸𝙽𝙻𝙸𝙽𝙴 𝙱𝚄𝚃𝚃𝙾𝙽𝚂
 
 <b>NOTE:</b>
-1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Eva Maria supports buttons with any telegram media type.
-3. Buttons should be properly parsed as markdown format
+1. 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝚆𝙸𝙻𝙻 𝙽𝙾𝚃 𝙰𝙻𝙻𝙾𝚆𝚂 𝚈𝙾𝚄 𝚃𝙾 𝚂𝙴𝙽𝙳 𝙱𝚄𝚃𝚃𝙾𝙽𝚂 𝚆𝙸𝚃𝙷𝙾𝚄𝚃 𝙰𝙽𝚈 𝙲𝙾𝙽𝚃𝙴𝙽𝚃, 𝚂𝙾 𝙲𝙾𝙽𝚃𝙴𝙽𝚃 𝙸𝚂 𝙼𝙰𝙽𝙳𝙰𝚃𝙾𝚁𝚈.
+2. 𝙴𝙼𝙸𝙻𝙸𝙰 𝙲𝙻𝙰𝚁𝙺𝙴 𝚂𝚄𝙿𝙿𝙾𝚁𝚃𝚂 𝙱𝚄𝚃𝚃𝙾𝙽𝚂 𝚆𝙸𝚃𝙷 𝙰𝙽𝚈 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙼𝙴𝙳𝙸𝙰 𝚃𝚈𝙿𝙴.
+3. 𝙱𝚄𝚃𝚃𝙾𝙽𝚂 𝚂𝙷𝙾𝚄𝙻𝙳 𝙱𝙴 𝙿𝚁𝙾𝙿𝙴𝚁𝙻𝚈 𝙿𝙰𝚁𝚂𝙴𝙳 𝙰𝚂 𝙼𝙰𝚁𝙺𝙳𝙾𝚆𝙽 𝙵𝙾𝚁𝙼𝙰𝚃.
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/EvaMariaBot)</code>
+<code>[Button Text](buttonurl:https://t.me/EmiliaClarkeRexBot))</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
