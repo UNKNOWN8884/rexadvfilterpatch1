@@ -18,7 +18,7 @@ from database.ia_filterdb import Media, get_file_details, unpack_new_file_id
 
 from database.users_chats_db import db
 
-from info import CHANNELS, ADMINS, AUTH_CHANNEL, CUSTOM_FILE_CAPTION, LOG_CHANNEL, PICS
+from info import CHANNELS, ADMINS, AUTH_CHANNEL, CUSTOM_FILE_CAPTION, LOG_CHANNEL, PICS, BATCH_FILE_CAPTION
 
 from utils import get_size, is_subscribed, temp
 
@@ -230,11 +230,11 @@ async def start(client, message):
 
             f_caption=msg.get("caption", "")
 
-            if CUSTOM_FILE_CAPTION:
+            if BATCH_FILE_CAPTION:
 
                 try:
 
-                    f_caption=CUSTOM_FILE_CAPTION.format(file_name= '' if title is None else title, file_size='' if size is None else size, file_caption='' if f_caption is None else f_caption)
+                    f_caption=BATCH_FILE_CAPTION.format(file_name= '' if title is None else title, file_size='' if size is None else size, file_caption='' if f_caption is None else f_caption)
 
                 except Exception as e:
 
@@ -310,11 +310,11 @@ async def start(client, message):
 
             f_caption = f"<code>{title}</code>"
 
-            if CUSTOM_FILE_CAPTION:
+            if BATCH_FILE_CAPTION:
 
                 try:
 
-                    f_caption=CUSTOM_FILE_CAPTION.format(file_name= '' if title is None else title, file_size='' if size is None else size, file_caption='')
+                    f_caption=BATCH_FILE_CAPTION.format(file_name= '' if title is None else title, file_size='' if size is None else size, file_caption='')
 
                 except:
 
@@ -338,11 +338,11 @@ async def start(client, message):
 
     f_caption=files.caption
 
-    if CUSTOM_FILE_CAPTION:
+    if BATCH_FILE_CAPTION:
 
         try:
 
-            f_caption=CUSTOM_FILE_CAPTION.format(file_name= '' if title is None else title, file_size='' if size is None else size, file_caption='' if f_caption is None else f_caption)
+            f_caption=BATCH_FILE_CAPTION.format(file_name= '' if title is None else title, file_size='' if size is None else size, file_caption='' if f_caption is None else f_caption)
 
         except Exception as e:
 
