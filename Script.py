@@ -44,6 +44,15 @@ class script(object):
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
+    FUN_TXT ="""<b>𝖥𝗎𝗇 𝖬𝗈𝖽𝗎𝗅𝖾𝗌</b> 
+    
+<b>🎲 Nothing But Fun Stuffs : 
+1. /dice - 𝖱𝗈𝗅𝗅 𝗍𝗁𝖾 𝖽𝗂𝖼𝖾
+2. /Throw - 𝖳𝗈 𝗍𝗁𝗋𝗈𝗐 𝖺 𝖽𝖺𝗋𝗍
+4. /Goal - 𝖳𝗈 𝗀𝗈𝖺𝗅 
+
+𝖬𝖺𝖽𝖾 𝖻𝗒 @Rex_Botz ❤️
+"""
     AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
 
 <b>NOTE:</b>
