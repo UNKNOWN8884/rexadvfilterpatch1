@@ -93,6 +93,9 @@ async def start(client, message):
             InlineKeyboardButton('ℹ️ ʜᴇʟᴘ', callback_data='help'),
 
             InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
+            ],[
+            InlineKeyboardButton('🎨 ɢʀᴏᴜᴘ', url='https://t.me/Rex_Bots_Support'),
+            InlineKeyboardButton('👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/Tanujairam')
 
         ]]
 
