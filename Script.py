@@ -51,8 +51,7 @@ class script(object):
 2. /Throw - 𝖳𝗈 𝗍𝗁𝗋𝗈𝗐 𝖺 𝖽𝖺𝗋𝗍
 4. /Goal - 𝖳𝗈 𝗀𝗈𝖺𝗅 
 
-𝖬𝖺𝖽𝖾 𝖻𝗒 @Rex_Botz ❤️
-"""
+𝖬𝖺𝖽𝖾 𝖻𝗒 @Rex_Botz ❤️"""
     AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
 
 <b>NOTE:</b>
