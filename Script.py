@@ -113,3 +113,20 @@ Added By - {}
 ID - <code>{}</code>
 Name - {}
 """
+@AutoFilterBot.on_message(filters.command(['fun']))
+async def start(_, m: Message):
+    await m.reply(f'Hi {m.from_user.mention(style="md")}, \n✪ Bot Name : StreamLinkRex \n✪ Developer : @Benwolf24 \n✪ Channel : @Rex_Botz \n✪ Group : @Rex_Bots_Support \n✪ Powered By : @FluxPlay \n\n© @Rex_Botz \nHelp @Rex_Bots_Support',
+                 quote=True,
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton('ʟᴇᴇᴄʜ ɢʀᴏᴜᴘ', url='https://t.me/+XovvU7Ri0p5hMDk1'),
+                    InlineKeyboardButton('ʜᴇʟᴘ', url='https://t.me/Rex_Bots_Support')
+                ],
+                [
+                    InlineKeyboardButton('ᴅᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/Benwolf24'),
+                    InlineKeyboardButton('ᴏᴛʜᴇʀ ʙᴏᴛs', url='https://t.me/Rex_Botz/94/')
+                ]
+            ]
+        )
+                 )
