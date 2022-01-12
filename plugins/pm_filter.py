@@ -434,10 +434,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+    elif query.data == "fun":
+        buttons = [[
+            InlineKeyboardButton('🔙 ʙᴀᴄᴋ', callback_data='about')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.FUN_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('👤 ᴏᴛʜᴇʀ ʙᴏᴛs',url='https://t.me/REX_BOTZ/94'),
-            InlineKeyboardButton('💃 ғᴜɴs', callback_data='fun')
+            InlineKeyboardButton('👤 ᴏᴛʜᴇʀ ʙᴏᴛs',url='https://t.me/REX_BOTZ/94')
             ],[
             InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ', url='https://t.me/REX_BOTZ'),
             InlineKeyboardButton('♥️ sᴏᴜʀᴄᴇ', callback_data='source')
@@ -458,16 +467,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.SOURCE_TXT,
-            reply_markup=reply_markup,
-            parse_mode='html'
-        )
-    elif query.data == "fun":
-        buttons = [[
-            InlineKeyboardButton('🔙 ʙᴀᴄᴋ', callback_data='about')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.FUN_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
