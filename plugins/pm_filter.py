@@ -417,7 +417,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('ɢᴀᴍᴇs', callback_data='fun')
+            InlineKeyboardButton('ɢᴀᴍᴇs', callback_data='fun'),
+            InlineKeyboardButton('ᴛɢʀᴀᴘʜ', callback_data='telegraph')
             ],[
             InlineKeyboardButton('ᴍᴀɴᴜᴀʟ ғɪʟᴛᴇʀ', callback_data='manuelfilter'),
             InlineKeyboardButton('ᴀᴜᴛᴏ ғɪʟᴛᴇʀ', callback_data='autofilter')
@@ -442,6 +443,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.FUN_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "telegraph":
+        buttons = [[
+            InlineKeyboardButton('🔙 ʙᴀᴄᴋ', callback_data='help'),
+            InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.TELEGRAPH_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
