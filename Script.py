@@ -51,7 +51,16 @@ class script(object):
 2. /Throw - 𝖳𝗈 𝗍𝗁𝗋𝗈𝗐 𝖺 𝖽𝖺𝗋𝗍
 4. /Goal - 𝖳𝗈 𝗀𝗈𝖺𝗅 
 
-𝖬𝖺𝖽𝖾 𝖻𝗒 @Rex_Botz ❤️"""
+@Rex_Botz"""
+    TELEGRAPH_TXT = """Help: <b>Telegraph Uploader</b>
+    
+<b>This Feature help to Upload Media Files To Telegraph Below 5MB</b>
+1.Send any Media File Below 5MB.
+2.Then Reply /telegraph to the Media File.
+3.That's it now you will get link.
+
+<b>Note :</b>
+This Feature May Be slow Due to Overload. So Please Wait Until you get your Link."""
     AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
 
 <b>NOTE:</b>
