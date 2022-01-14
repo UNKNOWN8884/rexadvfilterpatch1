@@ -61,6 +61,7 @@ class script(object):
 
 <b>Note :</b>
 This Feature May Be slow Due to Overload. So Please Wait Until you get your Link."""
+    FILTER_TXT = """Help: <b>Choose Type of Filter that you need</b>"""
     AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
 
 <b>NOTE:</b>
