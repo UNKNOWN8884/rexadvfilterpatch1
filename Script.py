@@ -56,7 +56,7 @@ class script(object):
     
 <b>This Feature help to Upload Media Files To Telegraph Below 5MB</b>
 1.Send any Media File Below 5MB.
-2.Then Reply /telegraph to the Media File.
+2.Then Reply /telegraph or /tgraph or /tgmedia to the Media File.
 3.That's it now you will get link.
 
 <b>Note :</b>
