@@ -418,8 +418,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('ɢᴀᴍᴇs', callback_data='fun'),
-            InlineKeyboardButton('ᴛɢʀᴀᴘʜ', callback_data='telegraph'),
-            InlineKeyboardButton('ғɪʟᴛᴇʀs' callback_data='filter')
+            InlineKeyboardButton('ᴛɢʀᴀᴘʜ', callback_data='telegraph')
+            ],[
+            InlineKeyboardButton('ᴍᴀɴᴜᴀʟ ғɪʟᴛᴇʀ', callback_data='manuelfilter'),
+            InlineKeyboardButoon('ᴀᴜᴛᴏ ғɪʟᴛᴇʀ', callback_data='autofilter')
             ],[
             InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct'),
             InlineKeyboardButton('ᴇxᴛʀᴀ ᴍᴏᴅs', callback_data='extra')
@@ -452,20 +454,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.TELEGRAPH_TXT,
-            reply_markup=reply_markup,
-            parse_mode='html'
-        )
-    elif query.data == "filter":
-        buttons = [[
-            InlineKeyboardButton('📒 ᴍᴀɴᴜᴀʟ', callback_data='manuelfilter'),
-            InlineKeyboardButton('♻️ ᴀᴜᴛᴏ', callback_data='autofilter')
-            ],[
-            InlineKeyboardButton('🔙 ʙᴀᴄᴋ', callback_data='help'),
-            InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.FILTER_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
