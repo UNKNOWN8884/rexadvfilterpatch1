@@ -514,14 +514,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "filestore":
+    elif query.data == "fstore":
         buttons = [[
             InlineKeyboardButton('🔙 ʙᴀᴄᴋ', callback_data='help'),
             InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.FILESTORE_XT,
+            text=script.FSTORE_XT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
