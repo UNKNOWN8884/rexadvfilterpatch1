@@ -421,8 +421,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴛɢʀᴀᴘʜ', callback_data='telegraph'),
             InlineKeyboardButton('ғɪʟᴛᴇʀs', callback_data='filter')
             ],[
+            InlineKeyboardButton('ғsᴛᴏʀᴇ', callback_data='filestore'),
             InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct'),
-            InlineKeyboardButton('ᴇxᴛʀᴀ ᴍᴏᴅs', callback_data='extra')
+            InlineKeyboardButton('ᴇxᴛʀᴀ', callback_data='extra')
             ],[
             InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('🔮 sᴛᴀᴛᴜs', callback_data='stats')
@@ -463,6 +464,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.FILTER_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "filestore":
+        buttons = [[
+            InlineKeyboardButton('🔙 ʙᴀᴄᴋ', callback_data='help'),
+            InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.FILESTORE_XT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
