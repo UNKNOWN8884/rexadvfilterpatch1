@@ -62,7 +62,7 @@ class script(object):
 <b>Note :</b>
 This Feature May Be slow Due to Overload. So Please Wait Until you get your Link."""
     FILTER_TXT = """Help: <b>Choose Type of Filter that you need</b>"""
-    FILESTORE_TXT = """Help: <b>New File Store Feature</b>
+    FSTORE_TXT = """Help: <b>New File Store Feature</b>
     
 <b>This Feature Helps you to Store your File</b>
 1.Send Me any Media File.
