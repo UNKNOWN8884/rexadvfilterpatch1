@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 
 from info import COMMAND_HAND_LER
 
-from plugins.helper_functions.admin_check import admin_check
+from plugins.helper_functions.admin_checks import admin_check
 
 from plugins.helper_functions.extract_user import extract_user
 
