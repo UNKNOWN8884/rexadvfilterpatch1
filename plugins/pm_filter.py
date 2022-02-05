@@ -482,7 +482,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-   elif query.data == "carbon":
+    elif query.data == "carbon":
         buttons = [[
             InlineKeyboardButton('🔙 ʙᴀᴄᴋ', callback_data='help'),
             InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start')
@@ -493,7 +493,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-   elif query.data == "qrcode":
+    elif query.data == "qrcode":
         buttons = [[
             InlineKeyboardButton('🔙 ʙᴀᴄᴋ', callback_data='help'),
             InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start')
