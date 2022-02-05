@@ -10,7 +10,7 @@ from plugins.admin.cust_p_filters import f_onw_fliter
 
 # -- Constants -- #
 ALIVE = "i am alive sar ."
-HELP = "CAACAgUAAxkBAAEBTsthlWY_Pte1RC4yhz3nD1utGagSSwAC0gIAAsaPcVUSPJS_m8rS5h4E"
+HELP = "CAACAgIAAxkBAAED0Ahh_qOBKIQgGbVkKk1X2YGA6UdTHgACOAMAAs-71A43zgaKKQqPbSME"
 # -- Constants End -- #
 
 
