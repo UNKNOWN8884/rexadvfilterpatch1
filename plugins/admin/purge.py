@@ -8,7 +8,7 @@ from info import (
     TG_MAX_SELECT_LEN
 )
 from plugins.helper_functions.admin_checks import admin_check
-from plugins.helper_functions.cust_p_filters import f_onw_fliter
+from plugins.admin.cust_p_filters import f_onw_fliter
 
 
 @Client.on_message(
