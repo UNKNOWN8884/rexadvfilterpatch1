@@ -425,6 +425,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct'),
             InlineKeyboardButton('ᴇxᴛʀᴀ', callback_data='extra')
             ],[
+            InlineKeyboardButton('ᴄᴀʀʙᴏɴ' callback_data='carbon')
+            InlineKeyboardButton('ǫʀᴄᴏᴅᴇ' callback_data='qrcode')
+            InlineKeyboardButton('ᴘɪɴ/ᴜɴᴘɪɴ' callback_data='pin')
+            ],[
             InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('🔮 sᴛᴀᴛᴜs', callback_data='stats')
         ]]
