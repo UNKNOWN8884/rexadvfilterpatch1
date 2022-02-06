@@ -36,3 +36,11 @@ domain-extract
 
 hashtags_extract
 
+#for music
+aiofiles
+aiohttp==3.7.4
+wget
+yt-dlp
+youtube-dl
+youtube-search-python==1.4.6
+youtube_search
