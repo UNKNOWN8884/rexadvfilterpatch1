@@ -18,29 +18,10 @@ pyrogram
 
 
 
-youtube_search
 
-ffmpeg-python
+
+
 
 googletrans==4.0.0-rc1
 
 carbonnow==0.0.1
-
-Pillow>==4.2.0
-
-bs4
-
-string-extract
-
-domain-extract
-
-hashtags_extract
-
-
-aiofiles
-aiohttp==3.7.4
-wget
-yt-dlp
-youtube-dl
-youtube-search-python==1.4.6
-youtube_search
