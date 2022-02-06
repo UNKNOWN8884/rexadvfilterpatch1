@@ -14,14 +14,6 @@ telegraph==1.4.1
 #For Google translator
 googletrans==4.0.0-rc1
 
-
-
-
-
-
-
-
-
-
-
+#For carbon image 
 carbonnow==0.0.1
+
