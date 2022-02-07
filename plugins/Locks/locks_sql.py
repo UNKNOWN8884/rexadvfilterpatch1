@@ -3,7 +3,7 @@ import threading
 
 from sqlalchemy import Column, String, Boolean
 
-from mrjoker.modules.sql import SESSION, BASE
+from plugins.Locks.modules.sql import SESSION, BASE
 
 
 class Permissions(BASE):
