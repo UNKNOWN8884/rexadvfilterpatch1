@@ -12,7 +12,7 @@ from alphabet_detector import AlphabetDetector
 import plugins.sql.locks_sql as sql
 from MashaRoBot import dispatcher, DRAGONS, LOGGER
 from plugins.changepermissions.disable import DisableAbleCommandHandler
-from MashaRoBot.modules.helper_funcs.chat_status import (
+from plugins.changepermissions.chat_status import (
     can_delete,
     is_user_admin,
     user_not_admin,
