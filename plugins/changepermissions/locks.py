@@ -9,7 +9,7 @@ from telegram.utils.helpers import mention_html
 
 from alphabet_detector import AlphabetDetector
 
-import MashaRoBot.modules.sql.locks_sql as sql
+import MashaRoBot.plugins.sql.locks_sql as sql
 from MashaRoBot import dispatcher, DRAGONS, LOGGER
 from MashaRoBot.modules.disable import DisableAbleCommandHandler
 from MashaRoBot.modules.helper_funcs.chat_status import (
