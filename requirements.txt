@@ -21,3 +21,4 @@ carbonnow==0.0.1
 alphabet_detector
 cachetools
 telethon
+telegram
