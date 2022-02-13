@@ -6,26 +6,6 @@ from cachetools import TTLCache
 
 from threading import RLock
 
-from rexadvfilterpatch1 import (
-
-    DEL_CMDS,
-
-    DEV_USERS,
-
-    DRAGONS,
-
-    SUPPORT_CHAT,
-
-    DEMONS,
-
-    TIGERS,
-
-    WOLVES,
-
-    dispatcher,
-
-)
-
 from telegram import Chat, ChatMember, ParseMode, Update
 
 from telegram.ext import CallbackContext
@@ -685,3 +665,13 @@ def user_admin_no_reply(func):
 from MashaRoBot.modules import connection
 
 connected = connection.connected
+
+
+# Values 
+DEL_CMDS = True
+DEV_USERS = get_user_list('elevated_users.json', 'devs')
+DRAGONS = get_user_list('elevated_users.json', 'sudos')
+SUPPORT_CHAT = 'Thanimaisupport'
+DEMONS = get_user_list('elevated_users.json', 'supports')
+TIGERS = get_user_list('elevated_users.json', 'tigers')
+WOLVES = get_user_list('elevated_users.json', 'whitelists')
