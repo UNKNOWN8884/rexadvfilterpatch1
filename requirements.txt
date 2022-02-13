@@ -22,3 +22,4 @@ alphabet_detector
 cachetools
 telethon
 telegram
+Pyrogram
