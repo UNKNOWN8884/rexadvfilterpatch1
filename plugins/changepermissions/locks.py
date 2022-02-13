@@ -19,10 +19,10 @@ from plugins.changepermissions.chat_status import (
     is_bot_admin,
     user_admin,
 )
-from MashaRoBot.modules.log_channel import loggable
-from MashaRoBot.modules.connection import connected
+from plugins.changepermissions.log_channel import loggable
+from plugins.changepermissions.connection import connected
 from MashaRoBot.modules.sql.approve_sql import is_approved
-from MashaRoBot.modules.helper_funcs.alternate import send_message, typing_action
+from plugins.changepermissions.chat_status import send_message, typing_action
 
 ad = AlphabetDetector()
 
