@@ -20,3 +20,4 @@ carbonnow==0.0.1
 #For locks
 alphabet_detector
 cachetools
+telethon
