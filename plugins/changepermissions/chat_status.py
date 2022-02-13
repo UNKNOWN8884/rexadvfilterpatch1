@@ -6,7 +6,7 @@ from cachetools import TTLCache
 
 from threading import RLock
 
-from config import (
+from EvaMaria import (
 
     DEL_CMDS,
 
