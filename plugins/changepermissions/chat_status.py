@@ -662,7 +662,7 @@ def user_admin_no_reply(func):
 
 # Workaround for circular import with connection.py
 
-from MashaRoBot.modules import connection
+from plugins.changepermissions import connection
 
 connected = connection.connected
 
