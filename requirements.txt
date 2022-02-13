@@ -23,3 +23,4 @@ cachetools
 telethon
 telegram
 Pyrogram
+python-telegram-bot==12.8
