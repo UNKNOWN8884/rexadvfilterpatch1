@@ -21,4 +21,11 @@ DATABASE_URI = "mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/
 DATABASE_NAME = 'Telegram'
 COLLECTION_NAME = 'channel_files'  # If you are using the same database, then use different collection name for each bot
 
-
+#Locks module
+DEL_CMDS = True
+DEV_USERS = get_user_list('elevated_users.json', 'devs')
+DRAGONS = get_user_list('elevated_users.json', 'sudos')
+SUPPORT_CHAT = 'Thanimaisupport'
+DEMONS = get_user_list('elevated_users.json', 'supports')
+TIGERS = get_user_list('elevated_users.json', 'tigers')
+WOLVES = get_user_list('elevated_users.json', 'whitelists')
