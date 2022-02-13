@@ -63,24 +63,15 @@ def covid_info(country_name):
         covid_info = f"""--**Covid 19 Information**--
 
 Country : `{country}`
-
 Actived : `{active}`
-
 Confirmed : `{confirmed}`
-
 Deaths : `{deaths}`
-
 ID : `{info_id}`
-
 Last Update : `{last_update}`
-
 Latitude : `{latitude}`
-
 Longitude : `{longitude}`
-
 Recovered : `{recovered}`
-
-Made by @REX_BOTZ ❤️"""
+"""
 
         return covid_info
 
