@@ -29,3 +29,5 @@ SUPPORT_CHAT = 'Thanimaisupport'
 DEMONS = get_user_list('elevated_users.json', 'supports')
 TIGERS = get_user_list('elevated_users.json', 'tigers')
 WOLVES = get_user_list('elevated_users.json', 'whitelists')
+
+TOKEN = "BOT_TOKEN"
