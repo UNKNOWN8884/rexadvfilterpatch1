@@ -5,7 +5,7 @@ from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton, Upda
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import CommandHandler, CallbackQueryHandler, run_async
 
-import MashaRoBot.modules.sql.connection_sql as sql
+import plugins.changepermissions.connection_sql as sql
 from MashaRoBot import dispatcher, DRAGONS, DEV_USERS
 from plugins.changepermissions import chat_status
 from plugins.changepermissions.alternate import send_message, typing_action
