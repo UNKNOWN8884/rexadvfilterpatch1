@@ -7,8 +7,8 @@ from telegram.ext import CommandHandler, CallbackQueryHandler, run_async
 
 import MashaRoBot.modules.sql.connection_sql as sql
 from MashaRoBot import dispatcher, DRAGONS, DEV_USERS
-from MashaRoBot.modules.helper_funcs import chat_status
-from MashaRoBot.modules.helper_funcs.alternate import send_message, typing_action
+from plugins.changepermissions import chat_status
+from plugins.changepermissions.alternate import send_message, typing_action
 
 user_admin = chat_status.user_admin
 
