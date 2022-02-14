@@ -24,3 +24,4 @@ telethon
 telegram
 Pyrogram
 python-telegram-bot==12.8
+spamwatch>=0.3.0
