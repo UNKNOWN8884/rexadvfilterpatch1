@@ -121,7 +121,7 @@ if ENV:
             "Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from plugins.changepermissions.config import Development as Config
+    from sample_info import Development as Config
     TOKEN = Config.TOKEN
 
     try:
