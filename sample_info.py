@@ -86,3 +86,6 @@ TOKEN = "BOT_TOKEN"
 
 class Development(Config):
     LOGGER = True
+
+  class Config(object):
+    LOGGER = True 
