@@ -21,6 +21,12 @@ DATABASE_URI = "mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/
 DATABASE_NAME = 'Telegram'
 COLLECTION_NAME = 'channel_files'  # If you are using the same database, then use different collection name for each bot
 
+#Def of lock
+def get_user_list(config, key):
+    with open('{}/MashaRoBot/{}'.format(os.getcwd(), config),
+              'r') as json_file:
+        return json.load(json_file)[key]
+      
 #Locks module
 DEL_CMDS = True
 DEV_USERS = get_user_list('elevated_users.json', 'devs')
