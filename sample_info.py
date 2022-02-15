@@ -40,3 +40,6 @@ TIGERS = get_user_list('elevated_users.json', 'tigers')
 WOLVES = get_user_list('elevated_users.json', 'whitelists')
 
 TOKEN = "BOT_TOKEN"
+class Development(Config):
+
+    LOGGER = True
