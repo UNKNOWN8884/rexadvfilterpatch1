@@ -1,3 +1,6 @@
+import json
+import os
+
 # Bot information
 SESSION = 'Media_search'
 USER_SESSION = 'User_Bot'
