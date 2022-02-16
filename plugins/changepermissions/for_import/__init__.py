@@ -15,7 +15,7 @@ import telegram.ext as tg
 from pyrogram import Client, errors
 
 from telethon import TelegramClient
-
+from sample_info import BOT_TOKEN
 StartTime = time.time()
 
 # enable logging
@@ -122,7 +122,7 @@ if ENV:
 
 else:
     from sample_info import Development as Config
-    TOKEN = Config.BOT_TOKEN
+    TOKEN = BOT_TOKEN
 
     try:
         OWNER_ID = int(Config.OWNER_ID)
