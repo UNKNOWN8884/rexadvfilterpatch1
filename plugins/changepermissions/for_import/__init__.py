@@ -122,7 +122,7 @@ if ENV:
 
 else:
     from sample_info import Development as Config
-    TOKEN = sample_info.TOKEN
+    TOKEN = Config.TOKEN
 
     try:
         OWNER_ID = int(Config.OWNER_ID)
